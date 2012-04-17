@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/RelativeLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/create_bg">
+	<ImageView android:id="@+id/layer_1_flavor"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:src="@drawable/icecream1" android:tint="@color/vanilla"
+		android:layout_centerHorizontal="true"></ImageView>
+	<ImageView android:id="@+id/layer_2_flavor"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:src="@drawable/icecream2" android:tint="@color/vanilla"
+		android:layout_centerHorizontal="true"></ImageView>
+	<ImageView android:id="@+id/layer_3_flavor"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:src="@drawable/icecream3" android:tint="@color/vanilla"
+		android:layout_centerHorizontal="true"></ImageView>
+	<ImageView android:id="@+id/layer_4_flavor"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:tint="@color/vanilla" android:layout_centerHorizontal="true"
+		android:src="@drawable/icecream4"></ImageView>
+	<ImageView android:id="@+id/layer_5_flavor"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:src="@drawable/icecream5" android:tint="@color/vanilla"
+		android:layout_centerHorizontal="true"></ImageView>
+
+	<ImageView android:id="@+id/main_cup" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+		android:src="@drawable/icecreamcup" android:layout_below="@drawable/icecream5"></ImageView>
+
+	<ImageView android:id="@+id/main_cup_reflection"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true" android:src="@drawable/cupreflection"
+		android:layout_alignParentBottom="false"></ImageView>
+
+
+	<ImageView android:id="@+id/up_arrow" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+		android:src="@drawable/upbutton" android:layout_alignParentBottom="false"
+		android:layout_alignParentTop="true" android:layout_marginTop="20dip"
+		android:clickable="true" android:onClick="upLayer"></ImageView>
+
+
+	<ImageView android:id="@+id/down_arrow" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+		android:src="@drawable/downbutton" android:layout_alignParentBottom="true"
+		android:layout_alignParentTop="false" android:layout_marginBottom="20dip"
+		android:clickable="true" android:onClick="downLayer"></ImageView>
+
+	<ScrollView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/ScrollViewright"
+		android:layout_centerHorizontal="true" android:clickable="true"
+		android:scrollbars="none" android:layout_alignParentRight="true"
+		android:layout_marginBottom="15dip" android:layout_marginTop="15dip"
+		android:paddingBottom="17dip" android:paddingTop="17dip"
+		android:layout_marginRight="18dip" android:background="@drawable/sidebars">
+		<RelativeLayout android:id="@+id/topping_relative_layout"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			xmlns:android="http://schemas.android.com/apk/res/android">
+			<LinearLayout android:id="@+id/topping_linear_layout"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:orientation="vertical" android:layout_centerInParent="true">
+				<ImageView android:id="@+id/almonds" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/almonds"
+					android:clickable="true" android:onClick="switchToppings"></ImageView>
+				<ImageView android:id="@+id/banana" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/banana"
+					android:clickable="true" android:onClick="switchToppings"></ImageView>
+				<ImageView android:id="@+id/blackberry"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/blackberry" android:clickable="true"
+					android:onClick="switchToppings" />
+
+				<ImageView android:id="@+id/blueberry"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/blueberry" android:clickable="true"
+					android:onClick="switchToppings" />
+
+				<ImageView android:id="@+id/brownie" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/brownie"
+					android:clickable="true" android:onClick="switchToppings" />
+
+				<ImageView android:id="@+id/butterfinger"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/butterfinger" android:clickable="true"
+					android:onClick="switchToppings" />
+
+
+				<ImageView android:id="@+id/captaincrunch"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/captaincrunch" android:clickable="true"
+					android:onClick="switchToppings" />
+
+
+				<ImageView android:id="@+id/cherries"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/cherries" android:clickable="true"
+					android:onClick="switchToppings" />
+
+				<ImageView android:id="@+id/coconut" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/coconut"
+					android:clickable="true" android:onClick="switchToppings" />
+
+				<ImageView android:id="@+id/cocopebbles"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/cocopebbles" android:clickable="true"
+					android:onClick="switchToppings" />
+
+				<ImageView android:id="@+id/fruitypebbles"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/fruitypebbles" android:clickable="true"
+					android:onClick="switchToppings" />
+
+				<ImageView android:id="@+id/hersheykiss"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/hersheykiss" android:clickable="true"
+					android:onClick="switchToppings" />
+
+				<ImageView android:id="@+id/jellybean"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/jellybean" android:clickable="true"
+					android:onClick="switchToppings" />
+
+				<ImageView android:id="@+id/kiwi" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/kiwi"
+					android:clickable="true" android:onClick="switchToppings" />
+
+				<ImageView android:id="@+id/mango" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/mango"
+					android:clickable="true" android:onClick="switchToppings" />
+
+
+				<ImageView android:id="@+id/marshmellow"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/marshmellow" android:clickable="true"
+					android:onClick="switchToppings" />
+
+				<ImageView android:id="@+id/mm" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/mm"
+					android:clickable="true" android:onClick="switchToppings" />
+
+				<ImageView android:id="@+id/mochio" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/mochio"
+					android:clickable="true" android:onClick="switchToppings" />
+
+				<!--
+					REMOVED <ImageView android:id="@+id/orange"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/orange"
+					android:clickable="true" android:onClick="switchToppings" />
+				-->
+
+				<ImageView android:id="@+id/oreo" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/oreo"
+					android:clickable="true" android:onClick="switchToppings" />
+
+				<ImageView android:id="@+id/peach" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/peach"
+					android:clickable="true" android:onClick="switchToppings" />
+
+				<ImageView android:id="@+id/pear" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/pear"
+					android:clickable="true" android:onClick="switchToppings" />
+
+				<ImageView android:id="@+id/pecan" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/pecan"
+					android:clickable="true" android:onClick="switchToppings" />
+
+				<ImageView android:id="@+id/raspberry"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/raspberry" android:clickable="true"
+					android:onClick="switchToppings" />
+
+				<ImageView android:id="@+id/reeses" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/reeses"
+					android:clickable="true" android:onClick="switchToppings" />
+
+
+				<ImageView android:id="@+id/sprinkles"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/sprinkles" android:clickable="true"
+					android:onClick="switchToppings" />
+
+				<ImageView android:id="@+id/strawberry"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/strawberry" android:clickable="true"
+					android:onClick="switchToppings" />
+
+				<ImageView android:id="@+id/sunflower"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/sunflower" android:clickable="true"
+					android:onClick="switchToppings" />
+
+				<ImageView android:id="@+id/watermelon"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/watermelon" android:clickable="true"
+					android:onClick="switchToppings" />
+			</LinearLayout>
+		</RelativeLayout>
+	</ScrollView>
+	<ScrollView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/ScrollViewleft"
+		android:layout_centerHorizontal="true" android:scrollbars="none"
+		android:layout_alignParentLeft="true" android:layout_marginBottom="15dip"
+		android:layout_marginTop="15dip" android:layout_marginLeft="18dip"
+		android:paddingBottom="17dip" android:paddingTop="17dip"
+		android:background="@drawable/sidebars2" android:clickable="false">
+		<RelativeLayout android:id="@+id/RelativeLayout02"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			xmlns:android="http://schemas.android.com/apk/res/android">
+			<LinearLayout android:id="@+id/LinearLayout02"
+				android:layout_centerInParent="true" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:orientation="vertical">
+				<ImageView android:id="@+id/flv_banana_coconut"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" 
+					android:src="@drawable/blank_flavor_0" android:clickable="true" 
+					android:onClick="switchImages" android:tint="@color/banana_coconut"/>
+				<ImageView android:id="@+id/flv_blueberry"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" 
+					android:src="@drawable/blank_flavor_1" android:clickable="true" 
+					android:onClick="switchImages" android:tint="@color/blueberry"/>
+					<ImageView android:id="@+id/flv_cake_batter"
+					android:onClick="switchImages" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/blank_flavor_2"
+					android:clickable="true" android:tint="@color/cake_batter" />
+				<ImageView android:id="@+id/flv_cheesecake"
+					android:onClick="switchImages" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/blank_flavor_3"
+					android:clickable="true" android:tint="@color/cheesecake"/>
+				<ImageView android:id="@+id/flv_cherry"
+					android:onClick="switchImages" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/blank_flavor_4"
+					android:clickable="true" android:tint="@color/cherry" />
+				<ImageView android:tint="@color/chocolate" android:id="@+id/flv_chocolate"
+					android:onClick="switchImages" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/blank_flavor_5"
+					android:clickable="true"/>
+				<ImageView android:tint="@color/chocolate_raspberry"
+					android:id="@+id/flv_chocolate_raspberry" android:onClick="switchImages"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/blank_flavor_6" android:clickable="true"/>
+				<ImageView android:tint="@color/coffee_lover" android:id="@+id/flv_coffee_lover"
+					android:onClick="switchImages" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/blank_flavor_7"
+					android:clickable="true"/>
+				<ImageView android:tint="@color/cookies_and_cream"
+					android:id="@+id/flv_cookies_and_cream" android:onClick="switchImages"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/blank_flavor_8" android:clickable="true"/>
+				<ImageView android:tint="@color/dole_pineapple"
+					android:id="@+id/flv_dole_pineapple" android:onClick="switchImages"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/blank_flavor_9" android:clickable="true"/>
+				<ImageView android:tint="@color/eggnog" android:id="@+id/flv_eggnog"
+					android:onClick="switchImages" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/blank_flavor_10"
+					android:clickable="true"/>
+				<ImageView android:tint="@color/green_apple" android:id="@+id/flv_green_apple"
+					android:onClick="switchImages" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/blank_flavor_11"
+					android:clickable="true"/>
+				<ImageView android:tint="@color/green_tea" android:id="@+id/flv_green_tea"
+					android:onClick="switchImages" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/blank_flavor_12"
+					android:clickable="true"/>
+				<ImageView android:tint="@color/gingerbread" android:id="@+id/flv_gingerbread"
+					android:onClick="switchImages" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/blank_flavor_2"
+					android:clickable="true"/>
+				<ImageView android:tint="@color/honeydew" android:id="@+id/flv_honeydew"
+					android:onClick="switchImages" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/blank_flavor_13"
+					android:clickable="true"/>
+				<ImageView android:tint="@color/kiwi" android:id="@+id/flv_kiwi"
+					android:onClick="switchImages" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/blank_flavor_14"
+					android:clickable="true"/>
+				<ImageView android:tint="@color/lemon" android:id="@+id/flv_lemon"
+					android:onClick="switchImages" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/blank_flavor_15"
+					android:clickable="true"/>
+				<ImageView android:tint="@color/lychee" android:id="@+id/flv_lychee"
+					android:onClick="switchImages" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/blank_flavor_16"
+					android:clickable="true"/>
+				<ImageView android:tint="@color/mango_pomegranate"
+					android:id="@+id/flv_mango_pomegranate" android:onClick="switchImages"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/blank_flavor_17" android:clickable="true"/>
+				<ImageView android:tint="@color/mint_chocolate"
+					android:id="@+id/flv_mint_chocolate" android:onClick="switchImages"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/blank_flavor_18" android:clickable="true"/>
+				<ImageView android:tint="@color/orange" android:id="@+id/flv_orange"
+					android:onClick="switchImages" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/blank_flavor_19"
+					android:clickable="true"/>
+				<ImageView android:tint="@color/passion_fruit" android:id="@+id/flv_passion_fruit"
+					android:onClick="switchImages" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/blank_flavor_20"
+					android:clickable="true"/>
+				<ImageView android:tint="@color/peach" android:id="@+id/flv_peach"
+					android:onClick="switchImages" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/blank_flavor_21"
+					android:clickable="true"/>
+				<ImageView android:tint="@color/peanut_butter" android:id="@+id/flv_peanut_butter"
+					android:onClick="switchImages" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/blank_flavor_22"
+					android:clickable="true"/>
+				<ImageView android:tint="@color/pistachio" android:id="@+id/flv_pistachio"
+					android:onClick="switchImages" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/blank_flavor_23"
+					android:clickable="true"/>
+				<ImageView android:tint="@color/pumpkin" android:id="@+id/flv_pumpkin"
+					android:onClick="switchImages" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/blank_flavor_24"
+					android:clickable="true"/>
+				<ImageView android:tint="@color/raspberry" android:id="@+id/flv_raspberry"
+					android:onClick="switchImages" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/blank_flavor_25"
+					android:clickable="true"/>
+				<ImageView android:tint="@color/red_velvet" android:id="@+id/flv_red_velvet"
+					android:onClick="switchImages" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/blank_flavor_26"
+					android:clickable="true"/>
+				<ImageView android:tint="@color/strawberry" android:id="@+id/flv_strawberry"
+					android:onClick="switchImages" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/blank_flavor_27"
+					android:clickable="true"/>
+				<ImageView android:tint="@color/taro" android:id="@+id/flv_taro"
+					android:onClick="switchImages" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/blank_flavor_28"
+					android:clickable="true"/>
+				<ImageView android:tint="@color/tart" android:id="@+id/flv_tart"
+					android:onClick="switchImages" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/blank_flavor_29"
+					android:clickable="true"/>
+
+				<ImageView android:id="@+id/flv_vanilla" android:tint="@color/vanilla"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/blank_flavor_30" android:clickable="true"
+					android:onClick="switchImages"/>
+
+				<ImageView android:id="@+id/flv_watermelon" android:tint="@color/watermelon"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/blank_flavor_31" android:clickable="true"
+					android:onClick="switchImages"/>
+
+				<ImageView android:id="@+id/flv_white_chocolate"
+					android:tint="@color/white_chocolate" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/blank_flavor_32"
+					android:clickable="true" android:onClick="switchImages"/>
+
+			</LinearLayout>
+		</RelativeLayout>
+	</ScrollView>
+	<ImageView android:id="@+id/topping_1" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+		android:duplicateParentState="false" android:visibility="visible" android:layout_marginBottom="55dip"></ImageView>
+	<ImageView android:id="@+id/topping_2" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+		android:duplicateParentState="false" android:layout_marginBottom="55dip"
+		android:visibility="visible"></ImageView>
+	<ImageView android:id="@+id/topping_3" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+		android:visibility="visible" android:layout_marginBottom="55dip"
+		android:duplicateParentState="false"></ImageView>
+</RelativeLayout>

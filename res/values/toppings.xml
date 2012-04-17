@@ -1,0 +1,30 @@
+    <resources>
+        <string name="top_almonds">Almonds</string>
+        <string name="top_banana">Bananas</string>
+        <string name="top_blueberry">Blueberries</string>
+        <string name="top_blackberry">Blackberries</string>
+        <string name="top_brownie">Brownies</string>
+        <string name="top_butterfinger">Butterfingers</string>
+        <string name="top_captain_crunch">Captain Crunch</string>
+        <string name="top_cherries">Cherries</string>
+        <string name="top_coconut">Coconuts</string>
+        <string name="top_coco_pebbles">Coco Pebbles</string>
+        <string name="top_fruity_pebbles">Fruity Pebbles</string>
+        <string name="top_hershey_kiss">Hershey Kiss</string>
+        <string name="top_jelly_bean">Jelly Beans</string>
+        <string name="top_kiwi">Kiwis</string>
+        <string name="top_mango">Mangos</string>
+        <string name="top_marshmellow">Marshmellows</string>
+        <string name="top_mm">M &amp; M &#044;s</string>
+        <string name="top_mochio">Mochio</string>
+        <string name="top_oreo">Oreo</string>
+        <string name="top_peach">Peach</string>
+        <string name="top_pear">Pear</string>
+        <string name="top_pecan">Pecan</string>
+        <string name="top_raspberry">Raspberries</string>
+        <string name="top_reeses">Reeses</string>
+        <string name="top_sprinkles">Sprinkles</string>
+        <string name="top_strawberry">Strawberries</string>
+        <string name="top_sunflower">Sunflowers Seeds</string>
+        <string name="top_watermelon">Watermelon</string>
+    </resources>

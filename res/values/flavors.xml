@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="banana_coconut">Banana Coconut</string>
+<string name="blueberry">Blueberry</string>
+<string name="cake_batter">Cake Batter</string>
+<string name="cheesecake">Cheesecake</string>
+<string name="cherry">Cherry</string>
+<string name="chocolate">Chocolate</string>
+<string name="chocolate_raspberry">Chocolate Raspberry</string>
+<string name="coffee_lover">Coffee Lover</string>
+<string name="cookies_and_cream">Cookies &amp; Cream</string>
+<string name="dole_pineapple">Pineapple</string>
+<string name="eggnog">Eggnog</string>
+<string name="gingerbread">Gingerbread</string>
+<string name="green_apple">Green Apple</string>
+<string name="green_tea">Green Tea</string>
+<string name="honeydew">Honeydew</string>
+<string name="kiwi">Kiwi</string>
+<string name="lemon">Lemon</string>
+<string name="lychee">Lychee</string>
+<string name="mango_pomegranate">Mango Pomegranate</string>
+<string name="mint_chocolate">Mint Chocolate</string>
+<string name="orange">Orange</string>
+<string name="passion_fruit">Passion Fruit</string>
+<string name="peach">Peach</string>
+<string name="peanut_butter">Peanut Butter</string>
+<string name="pistachio">Pistachio</string>
+<string name="pumpkin">Pumpkin</string>
+<string name="raspberry">Raspberry</string>
+<string name="red_velvet">Red Velvet</string>
+<string name="strawberry">Strawberry</string>
+<string name="taro">Taro</string>
+<string name="tart">Tart</string>
+<string name="vanilla">Vanilla</string>
+<string name="watermelon">Watermelon</string>
+<string name="white_chocolate">White Chocolate</string>
+</resources>

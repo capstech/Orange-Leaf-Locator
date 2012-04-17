@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="banana_coconut">#808B4513</color>
+<color name="blueberry">#808470FF</color>
+<color name="blueberry_solid">#8470FF</color>
+<color name="cake_batter">#80F4D49C</color>
+<color name="cheesecake">#80FAFAD2</color>
+<color name="cherry">#80EE0000</color>
+<color name="chocolate">#804C1600</color>
+<color name="chocolate_raspberry">#808B4500</color>
+<color name="coffee_lover">#808B5A2B</color>
+<color name="cookies_and_cream">#80F9D2AF</color>
+<color name="dole_pineapple">#80FFF466</color>
+<color name="eggnog">#80F4E0A5</color>
+<color name="gingerbread">#80E5AB7A</color>
+<color name="green_apple">#809ACD32</color>
+<color name="green_tea">#809ACD32</color>
+<color name="honeydew">#80D0E891</color>
+<color name="kiwi">#807CFC00</color>
+<color name="lemon">#80FFFACD</color>
+<color name="lychee">#80FFFAFA</color>
+<color name="mango_pomegranate">#80FFA500</color>
+<color name="mint_chocolate">#80C0E1BC</color>
+<color name="orange">#80FFA500</color>
+<color name="passion_fruit">#80FFD150</color>
+<color name="peach">#80F4A460</color>
+<color name="peanut_butter">#80CD853F</color>
+<color name="pistachio">#80B3EE3A</color>
+<color name="pumpkin">#80FFA500</color>
+<color name="raspberry">#80FC517A</color>
+<color name="red_velvet">#80BD3742</color>
+<color name="strawberry">#80C12033</color>
+<color name="taro">#808B5F65</color>
+<color name="tart">#80FFF3DC</color>
+<color name="vanilla">#80FFFCE2</color>
+<color name="vanilla_solid">#FFFCE2</color>
+<color name="watermelon">#80FFAEB9</color>
+<color name="white_chocolate">#80F9EAD7</color>
+<color name="dark_grey">#474747</color>
+</resources>

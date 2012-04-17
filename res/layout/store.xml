@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/LinearLayout01"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ xmlns:android="http://schemas.android.com/apk/res/android"
+ android:background="@drawable/create_bg">
+<LinearLayout 
+	 android:id="@+id/store_linear" 
+	 android:layout_width="wrap_content" 
+	 android:layout_height="wrap_content"
+ >
+ <RelativeLayout 
+ android:layout_height="wrap_content" 
+ android:layout_width="wrap_content" 
+ android:id="@+id/store_relative" 
+ android:layout_below="@+id/store_linear"
+ android:background="@drawable/store_layer_2"
+ >
+ <ListView android:id="@+id/list1"
+ 	android:layout_width="wrap_content"
+ 	android:layout_height="wrap_content"
+ 	android:layout_marginLeft="35dip"
+ 	android:layout_marginRight="30dip"
+ 	android:layout_marginTop="35dip"
+ 	android:layout_marginBottom="38dip"
+ 	android:divider="#bdbebd"
+ 	android:dividerHeight="1px"
+ 	android:cacheColorHint="#00000000"  />
+	 <TextView 
+		android:id="@android:id/text1"
+		android:layout_width="wrap_content"
+		android:gravity="center_vertical"  
+		android:layout_height="wrap_content"
+		android:textSize="4dip"
+		android:autoLink="web"
+		android:textColor="@color/dark_grey"
+	>
+</TextView>
+</RelativeLayout>
+</LinearLayout>
+</LinearLayout>
+
+
